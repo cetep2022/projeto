@@ -1,15 +1,1 @@
 
-.layout-app {
-    max-width: 100%;
-    width: 1000px;
-    margin: auto;
-}
-.container {
-    display: flex;
-    justify-content: space-evenly;
-}
-@media (max-width: 600px) {
-    .container {
-        display: block;
-    }
-}
