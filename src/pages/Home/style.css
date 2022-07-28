@@ -11,14 +11,18 @@
 .Home
 {
     background-image: url("../../assets/background.jpg");
-    color: white;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.Home__title, .Home__desc
+{
+    color: white;
+    text-align: center;
+}
+
 .Home__desc
 {
-    text-align: center;
     width: 80vw;
 }
