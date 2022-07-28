@@ -1,10 +1,12 @@
 import './App.css'
 import Cards from '../components/Cards'
 import Home from '../pages/Home/Home';
+import Header from '../components/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Home></Home>
       <div className="layout-app">
         <div className='container'>
