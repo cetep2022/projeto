@@ -1,0 +1,15 @@
+.Home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+    padding: 0 10vw;
+}
+
+.Home__desc
+{
+    text-align: center;
+}
