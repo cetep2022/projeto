@@ -6,10 +6,19 @@
     flex-direction: column;
     height: 100vh;
     gap: 30px;
-    padding: 0 10vw;
+}
+
+.Home
+{
+    background-image: url("../../assets/background.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .Home__desc
 {
     text-align: center;
+    width: 80vw;
 }
