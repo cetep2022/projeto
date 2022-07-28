@@ -16,7 +16,9 @@
 .app article h2 {
     font-size: 30px;
     color: var(--color--text);
+    padding: 20px 0px;
 }
 .app article p {
     color: var(--color-message);
+    padding: 10px 0px;
 }
