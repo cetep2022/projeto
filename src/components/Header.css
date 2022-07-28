@@ -1,0 +1,44 @@
+.Header
+{
+    right: 10px;
+    top: 10px;
+    position: fixed;
+}
+
+.Header__list
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item__link
+{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.list__item
+{
+    border-radius: 10px
+}
+
+.list__item
+{
+    padding: 10px 20px;
+}
+
+.list__item:hover
+{
+    background-color: white;
+    transition: background-color 0.3s linear;
+}
+
+.list__item:hover .item__link
+{
+    color: black;
+    transition: color 0.5s linear;
+}
