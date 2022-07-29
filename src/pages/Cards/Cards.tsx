@@ -7,7 +7,10 @@ export default function Cards() {
           <div className="d-width-card">
             <h2>My Perfil Profissional</h2>
             <p>
-                Hi word, I am develop web. Usually I'm study a litle English and languagens programation. start at 8:00Am, some 
+                Hi word, I am develop web. Usually I'm study a litle English and languagens programation. start at 8:00Am.
+            </p>
+            <p>
+                Oi mundo, Eu sou um desenvolvedor web, normalmente i estou estudo um pouco de Inglês e linguagens programação. inicio as 8:00 da manhã.
             </p>
             <div className='d-button-flex'>
              <a href="">git-hub</a>
