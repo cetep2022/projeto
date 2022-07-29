@@ -2,7 +2,8 @@
 import './Cards.css'
 export default function Cards() {
     return (
-       <div className="d-flex">
+      <div className='d-container'>
+         <div className="d-flex">
           <div className="d-width-card">
             <h2>Meu perfil 1</h2>
             <p>
@@ -22,5 +23,6 @@ export default function Cards() {
            </div>
           </div>
        </div>
+      </div>
     )
 }
