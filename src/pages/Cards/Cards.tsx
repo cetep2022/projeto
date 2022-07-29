@@ -26,7 +26,9 @@ export default function Cards() {
             informática.
           </p>
           <div className="d-button-flex">
-            <a href="">git-hub</a>
+            <a href="https://github.com/ProgrammerKelliton" target={"__black"}>
+              git-hub
+            </a>
           </div>
         </div>
       </div>
