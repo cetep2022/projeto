@@ -1,7 +1,9 @@
+import "./style.css";
+
 export default function Cards() {
   return (
-    <div>
-      <h1>...</h1>
+    <div className="Cards">
+      <h1 className="Cards__title">...</h1>
     </div>
   );
 }
