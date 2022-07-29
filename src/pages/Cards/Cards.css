@@ -1,14 +1,15 @@
 .d-flex {
-  display: flex;
-
+ display: grid;
+ grid-template-columns: 10fr 10fr;
   max-width: 800px;
-  width: 100%;
+  
+ 
+  width: 100vw;
   margin: auto;
 
   font-family: monospace;
   margin-bottom: 10em;
   margin-top: 5em;
-
 }
 
 .d-container
@@ -25,38 +26,67 @@
 }
 
 .d-width-card {
-    background-color: rgb(255, 255, 255);
-
-    margin: 10px;
-    padding: 30px;
-    box-shadow: -2px 5px 5px -5px #333;
+  margin: 10px;
+  background: white;
+  box-shadow: 3px 5px 5px -6px #333;
+  backdrop-filter: blur(7px);
+  border-radius: 19px;
+  
 }
+
+.d-width-card {
+  padding: 20px;
+}
+
 .d-width-card h2 {
-    font-size: 30px;
+  color: #111;
 }
 .d-width-card p {
-    color: #333;
-    margin-top: 10px;
-    font-size: 13px;
+  color: white;
 }
 .d-width-card a {
-    background-color: black;
-    padding: 8px 40px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 18px;
-
+  background-color: black;
+  padding: 10px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.d-width-card p {
+  color: #333;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.d-width-card a {
+  background-color: black;
+  padding: 8px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
 }
 .d-width-card a:hover {
-    background-color: white;
-    border: 1px solid black;
+  background-color: white;
+  border: 1px solid black;
 }
 .d-button-flex {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-   
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
+@media (max-width: 600px) {
+  .d-flex {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .d-flex {
+    display: block;
+  }
+  .d-width-card p {
+    text-align: center;
+  }
+}
+
 @media (max-width:600px) {
     .d-flex {
         display: block;
