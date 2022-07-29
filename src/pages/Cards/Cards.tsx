@@ -13,7 +13,7 @@ export default function Cards() {
                 Oi mundo, Eu sou um desenvolvedor web, normalmente i estou estudo um pouco de Inglês e linguagens programação. inicio as 8:00 da manhã.
             </p>
             <div className='d-button-flex'>
-             <a href="">git-hub</a>
+             <a href="https://github.com/MaCielSevilha/">git-hub</a>
            </div>
           </div>
           <div className="d-width-card">
