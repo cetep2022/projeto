@@ -4,23 +4,32 @@
   max-width: 1000px;
   width: 100%;
   margin: auto;
+  font-family: monospace;
+
+  margin-bottom: 10em;
+  margin-top: 5em;
 }
 .d-width-card {
+    background-color: rgb(255, 255, 255);
+
     margin: 10px;
+    padding: 30px;
+    box-shadow: -2px 5px 5px -5px #333;
 }
 .d-width-card h2 {
-    
+    font-size: 30px;
 }
 .d-width-card p {
     color: #333;
-    
+    margin-top: 10px;
+    font-size: 13px;
 }
 .d-width-card a {
     background-color: black;
-    padding: 10px 50px;
+    padding: 8px 40px;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .d-width-card a:hover {
@@ -36,5 +45,8 @@
 @media (max-width:600px) {
     .d-flex {
         display: block;
+    }
+    .d-width-card p {
+        text-align: center;
     }
 }
